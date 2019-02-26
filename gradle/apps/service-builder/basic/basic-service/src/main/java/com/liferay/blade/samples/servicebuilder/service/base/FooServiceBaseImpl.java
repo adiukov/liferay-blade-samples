@@ -45,7 +45,6 @@ import javax.sql.DataSource;
  *
  * @author Brian Wing Shun Chan
  * @see com.liferay.blade.samples.servicebuilder.service.impl.FooServiceImpl
- * @see com.liferay.blade.samples.servicebuilder.service.FooServiceUtil
  * @generated
  */
 public abstract class FooServiceBaseImpl extends BaseServiceImpl
@@ -53,7 +52,7 @@ public abstract class FooServiceBaseImpl extends BaseServiceImpl
 	/*
 	 * NOTE FOR DEVELOPERS:
 	 *
-	 * Never modify or reference this class directly. Always use {@link com.liferay.blade.samples.servicebuilder.service.FooServiceUtil} to access the foo remote service.
+	 * Never modify or reference this class directly. Use <code>FooService</code> via injection or a <code>org.osgi.util.tracker.ServiceTracker</code> or use <code>com.liferay.blade.samples.servicebuilder.service.FooServiceUtil</code>.
 	 */
 
 	/**

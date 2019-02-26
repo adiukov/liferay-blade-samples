@@ -25,8 +25,6 @@ import com.liferay.portal.kernel.util.Accessor;
  *
  * @author Brian Wing Shun Chan
  * @see FooModel
- * @see com.liferay.blade.samples.servicebuilder.model.impl.FooImpl
- * @see com.liferay.blade.samples.servicebuilder.model.impl.FooModelImpl
  * @generated
  */
 @ImplementationClassName("com.liferay.blade.samples.servicebuilder.model.impl.FooImpl")
@@ -35,7 +33,7 @@ public interface Foo extends FooModel, PersistedModel {
 	/*
 	 * NOTE FOR DEVELOPERS:
 	 *
-	 * Never modify this interface directly. Add methods to {@link com.liferay.blade.samples.servicebuilder.model.impl.FooImpl} and rerun ServiceBuilder to automatically copy the method declarations to this interface.
+	 * Never modify this interface directly. Add methods to <code>com.liferay.blade.samples.servicebuilder.model.impl.FooImpl</code> and rerun ServiceBuilder to automatically copy the method declarations to this interface.
 	 */
 	public static final Accessor<Foo, Long> FOO_ID_ACCESSOR = new Accessor<Foo, Long>() {
 			@Override

@@ -19,6 +19,8 @@ package com.liferay.blade.samples.servicebuilder.service.impl;
 import com.liferay.blade.samples.servicebuilder.model.Foo;
 import com.liferay.blade.samples.servicebuilder.service.base.FooLocalServiceBaseImpl;
 
+import java.util.List;
+
 /**
  * The implementation of the foo local service.
  *
@@ -46,6 +48,10 @@ public class FooLocalServiceImpl extends FooLocalServiceBaseImpl {
 		foo.setFooId(resourcePrimKey);
 
 		return addFoo(foo);
+	}
+
+	public List<Foo> findByField2(boolean filed2) {
+		return fooPersistence.findByField2(filed2);
 	}
 
 	public String fooLocal() {

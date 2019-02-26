@@ -32,8 +32,6 @@ import com.liferay.portal.kernel.transaction.Transactional;
  *
  * @author Brian Wing Shun Chan
  * @see FooServiceUtil
- * @see com.liferay.blade.samples.servicebuilder.service.base.FooServiceBaseImpl
- * @see com.liferay.blade.samples.servicebuilder.service.impl.FooServiceImpl
  * @generated
  */
 @AccessControlled
@@ -47,7 +45,7 @@ public interface FooService extends BaseService {
 	/*
 	 * NOTE FOR DEVELOPERS:
 	 *
-	 * Never modify or reference this interface directly. Always use {@link FooServiceUtil} to access the foo remote service. Add custom service methods to {@link com.liferay.blade.samples.servicebuilder.service.impl.FooServiceImpl} and rerun ServiceBuilder to automatically copy the method declarations to this interface.
+	 * Never modify or reference this interface directly. Always use {@link FooServiceUtil} to access the foo remote service. Add custom service methods to <code>com.liferay.blade.samples.servicebuilder.service.impl.FooServiceImpl</code> and rerun ServiceBuilder to automatically copy the method declarations to this interface.
 	 */
 
 	/**
